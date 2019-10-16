@@ -1,6 +1,6 @@
 :while
 REM :: Speak to the user
-PowerShell -Command "Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('Vampetização rolando!');"
+PowerShell -Command "Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('Vampetiza�?o rolando!');"
 
 REM :: Download picture
 PowerShell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/PedroFabrino/friday/blob/master/vampeta.jpg?raw=true', 'C:/users/public/vampeta.jpg')"
@@ -11,7 +11,7 @@ timeout 2
 UpdatePerUserSystemParameters
 
 REM :: Speak to the user
-PowerShell -Command "Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('Vampetização finalizada, volte sempre');"
+PowerShell -Command "Add-Type -AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('Vampetiza�?o finalizada, volte sempre');"
 
 REM :: Wait 30 seconds
 timeout 30
