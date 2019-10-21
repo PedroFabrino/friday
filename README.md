@@ -8,7 +8,7 @@ You don't need any additional software.
 
 ### Usage
 
-### Commom
+### Common
 * Download the repository (https://bit.ly/friday_sh) and unzip it
 
 ### MacOS
