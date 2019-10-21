@@ -1,6 +1,6 @@
 # Project Title
 
-Friday is a automatization to "Vampetizar" people who leave their computers unlocked and unattended.
+Friday is an automatization to "Vampetizar" people who leave their computers unlocked and unattended.
 
 ## Getting Started
 
