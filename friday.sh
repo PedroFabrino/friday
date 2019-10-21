@@ -2,7 +2,7 @@
 
 # Define variables
 
-period=300
+period=180
 image_file_name='com.zoeira.vampeta-1.jpg'
 
 # Start counting
@@ -12,9 +12,10 @@ count=1
 # Start loop
 while true
 do
+  sleep $period
 
   osascript -e 'set volume output volume 100'
-  say -v Luciana 'Sistema iniciando'
+  say -v Luciana 'Sistema iniciando...'
   osascript -e 'set volume output volume 100'
   say -v Luciana 'Áreas vitais verificadas'
   osascript -e 'set volume output volume 100'
@@ -43,7 +44,7 @@ do
   say -v Luciana 'Como assim amigo, está tentando se livrar de mim?'
 
   sleep $period
-  
+
   osascript -e 'set volume output volume 100'
   say -v Luciana 'Eu sei que você me ama!'
 
