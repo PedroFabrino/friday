@@ -1,4 +1,4 @@
-# Project Title
+# Friday
 
 Friday is an automatization to "Vampetizar" people who leave their computers unlocked and unattended.
 
